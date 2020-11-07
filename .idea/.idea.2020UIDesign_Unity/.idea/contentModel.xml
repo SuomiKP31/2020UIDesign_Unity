@@ -13,10 +13,23 @@
           <e p="MainUI.cs" t="Include" />
           <e p="StoryMaking.cs" t="Include" />
           <e p="StoryPad.cs" t="Include" />
+          <e p="StoryTelling.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
+            <e p="assassin" t="Include">
+              <e p="ASSASSIN'SCREED font.txt" t="Include" />
+            </e>
+            <e p="billion_dreams" t="Include">
+              <e p="ABSOLUTELY_VITAL_INFORMATION.txt" t="Include" />
+            </e>
             <e p="LiberationSans - OFL.txt" t="Include" />
+            <e p="longhaul" t="Include">
+              <e p="YOU DECIDE PRICE OF LICENSE.txt" t="Include" />
+            </e>
+            <e p="moranke" t="Include">
+              <e p="readme.txt" t="Include" />
+            </e>
           </e>
           <e p="Resources" t="Include">
             <e p="LineBreaking Following Characters.txt" t="Include" />
