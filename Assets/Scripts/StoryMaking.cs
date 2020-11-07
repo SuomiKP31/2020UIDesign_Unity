@@ -27,6 +27,7 @@ public class StoryMaking : MonoBehaviour
 
     private void OnEnable()
     {
+        m_currentStorySeq = new List<int>();
         // All selections are faked for now, e.g. Chara/BG selection is fake, they are nothing but story boards.
         m_currentStoryPad = Instantiate(m_firstStoryPadPrefab, m_container.transform, false);
         var pad_script = m_currentStoryPad.GetComponent<StoryPad>();
@@ -51,5 +52,12 @@ public class StoryMaking : MonoBehaviour
     public void AddStory(int index)
     {
         m_currentStorySeq.Add(index);
+    }
+
+    public void FinishCurrentStoryLine()
+    {
+        //Called when activate a story pad who's next_num is zero, which means it's a final pad.
+        GameManager.Get().AddStorySequence(m_currentStorySeq);
+        m_currentStorySeq.Clear();
     }
 }

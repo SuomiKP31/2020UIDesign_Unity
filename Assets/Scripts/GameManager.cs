@@ -31,6 +31,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        m_stories = new List<List<int>>();
+    }
+
     public static GameManager Get()
     {
         return m_instance;

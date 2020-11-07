@@ -47,7 +47,7 @@ public class MainUI : MonoBehaviour
                 m_state = UIState.StoryMaking;
                 break;
             case 3:
-                m_StoryMaking.SetActive(true);
+                m_StoryTelling.SetActive(true);
                 m_state = UIState.StoryTelling;
                 break;
             default:

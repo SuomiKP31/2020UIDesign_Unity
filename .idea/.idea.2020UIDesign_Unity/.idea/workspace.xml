@@ -20,12 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="724776ad-2f35-47b0-9569-840543f9958c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2020UIDesign_Unity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2020UIDesign_Unity/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2020UIDesign_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2020UIDesign_Unity/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/StoryMaking.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StoryMaking.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/StoryPad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StoryPad.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UIPrefab/StoryMaking/BGBoard_day.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UIPrefab/StoryMaking/BGBoard_day.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UIPrefab/StoryMaking/BGBoard_night.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UIPrefab/StoryMaking/BGBoard_night.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +45,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/MainUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AccountUIController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StoryPad.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StoryMaking.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StoryPad.cs" />
       </list>
     </option>
   </component>
@@ -64,20 +65,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="14956">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="14956" />
       <option name="selectedOptions">
         <set />
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="14956">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="14956" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -93,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604718159802</updated>
       <workItem from="1604718171579" duration="7786000" />
-      <workItem from="1604746912783" duration="7689000" />
+      <workItem from="1604746912783" duration="10125000" />
     </task>
     <servers />
   </component>

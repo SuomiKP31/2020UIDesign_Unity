@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Net.Sockets;
 using UnityEngine;
 
 public class StoryPad : MonoBehaviour
@@ -22,7 +23,12 @@ public class StoryPad : MonoBehaviour
             var pad_script = next_pad.GetComponent<StoryPad>();
             pad_script.Initialize(m_container);
         }
-
+        else
+        {
+            // Finish. Note that Storypad for finish need to be inside the prefab list
+            var next_pad = Instantiate(m_nextStoryPadPrefab[index], m_container.transform, false);
+            StoryMaking.Get().FinishCurrentStoryLine();
+        }
         Destroy(gameObject);
     }
 
@@ -33,5 +39,7 @@ public class StoryPad : MonoBehaviour
         {
             StoryMaking.Get().AddStory(m_story_index);
         }
+
+        
     }
 }
