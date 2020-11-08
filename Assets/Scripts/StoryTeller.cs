@@ -52,7 +52,6 @@ public class StoryTeller : MonoBehaviour
         m_currentSeqPosition = 0;
         m_storyBoardImage.gameObject.SetActive(true);
         PlayStory(0);
-        StartCoroutine(WaitForSound());
     }
 
     private void PlayStory(int StoryIndex)
@@ -68,6 +67,7 @@ public class StoryTeller : MonoBehaviour
         m_storyBoardImage.texture = story.m_texture;
         m_text.text = story.m_text;
         m_audioSource.PlayOneShot(m_currentAudioClip);
+        StartCoroutine(WaitForSound());
     }
 
     private void FinishStory()

@@ -19,18 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="724776ad-2f35-47b0-9569-840543f9958c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2020UIDesign_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2020UIDesign_Unity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Misc/hr-choosecharacter-2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Misc/hr-choosecharacter-2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StoryBook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StoryBook.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StoryMaking.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StoryMaking.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StoryTeller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StoryTeller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StoryTelling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StoryTelling.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UIPrefab/StoryMaking/CharaSelectBoard_day.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UIPrefab/StoryMaking/CharaSelectBoard_day.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UIPrefab/StoryMaking/CharaSelectBoard_night.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UIPrefab/StoryMaking/CharaSelectBoard_night.prefab" afterDir="false" />
-    </list>
+    <list default="true" id="724776ad-2f35-47b0-9569-840543f9958c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +93,7 @@
       <updated>1604718159802</updated>
       <workItem from="1604718171579" duration="7786000" />
       <workItem from="1604746912783" duration="11107000" />
-      <workItem from="1604804429590" duration="12516000" />
+      <workItem from="1604804429590" duration="12871000" />
     </task>
     <servers />
   </component>
@@ -201,5 +190,24 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1604804449925" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/StoryTeller.cs</url>
+          <line>76</line>
+          <properties documentPath="G:\UnityProj\2020UIDesign_Unity\Assets\Scripts\StoryTeller.cs" initialLine="76">
+            <startOffsets>
+              <option value="1955" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1985" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
