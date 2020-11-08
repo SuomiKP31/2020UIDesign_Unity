@@ -1343,6 +1343,7 @@ MonoBehaviour:
   - m_texture: {fileID: 2800000, guid: 76e2225806eb819409d7ecc75b8cc7aa, type: 3}
     m_audioClip: {fileID: 8300000, guid: fd8d34038444651498df69f380b1c5b5, type: 3}
     m_text: Let them come, this is their fate!
+  m_stories: []
 --- !u!4 &343954616
 Transform:
   m_ObjectHideFlags: 0
@@ -3569,7 +3570,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_fontColor: {r: 1, g: 0.20310983, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3778,7 +3779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_audioSource: {fileID: 1032916231}
   m_storyBoardImage: {fileID: 1433346117}
-  m_text: {fileID: 0}
+  m_text: {fileID: 978485895}
   m_FinishTexture: {fileID: 2800000, guid: d33da4f57d311934c8a15aa112b1bfbb, type: 3}
 --- !u!1 &1050187096
 GameObject:
