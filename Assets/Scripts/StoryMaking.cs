@@ -58,6 +58,7 @@ public class StoryMaking : MonoBehaviour
     {
         //Called when activate a story pad who's next_num is zero, which means it's a final pad.
         GameManager.Get().AddStorySequence(m_currentStorySeq);
-        m_currentStorySeq.Clear();
+        Debug.Log("A story sequence of length" + m_currentStorySeq.Count + "is added");
+        //m_currentStorySeq.Clear();
     }
 }

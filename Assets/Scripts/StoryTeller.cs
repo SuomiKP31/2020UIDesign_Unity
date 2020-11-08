@@ -33,6 +33,11 @@ public class StoryTeller : MonoBehaviour
         m_currentSeqPosition = 0;
     }
 
+    private void OnEnable()
+    {
+        m_storyBoardImage.gameObject.SetActive(false);
+    }
+
     public static StoryTeller Get()
     {
         return m_instance;
@@ -45,6 +50,7 @@ public class StoryTeller : MonoBehaviour
     public void StartTellStory()
     {
         m_currentSeqPosition = 0;
+        m_storyBoardImage.gameObject.SetActive(true);
         PlayStory(0);
         StartCoroutine(WaitForSound());
     }
@@ -57,7 +63,7 @@ public class StoryTeller : MonoBehaviour
             return;
         }
         // StoryIndex is the index of the story inside the GameManager
-        var story = GameManager.Get().m_storyList[StoryIndex];
+        var story = GameManager.Get().m_storyList[m_storySeq[StoryIndex]];
         m_currentAudioClip = story.m_audioClip;
         m_storyBoardImage.texture = story.m_texture;
         m_text.text = story.m_text;

@@ -23,17 +23,19 @@ public class StoryTelling : MonoBehaviour
 
     private void OnEnable()
     {
+        m_StoryGalleryContainer.SetActive(true);
         // Purge old story entry
         foreach (Transform child in m_StoryGalleryContainer.transform)
         {
             Destroy(child.gameObject);
         }
         // Initialize all story books
-        foreach (List<int> seq in GameManager.Get().m_stories)
+        var gm = GameManager.Get().GetStoriesList();
+        foreach (StorySeq seq in gm)
         {
             var sbook = Instantiate(m_StoryBookPrefab, m_StoryGalleryContainer.transform, false);
             var sbook_script = sbook.GetComponent<StoryBook>();
-            sbook_script.Initialize(seq);
+            sbook_script.Initialize(seq.m_sequence);
         }
     }
 
@@ -44,6 +46,7 @@ public class StoryTelling : MonoBehaviour
 
     public void StartTellStory(List<int> StorySeq)
     {
+        m_StoryGalleryContainer.SetActive(false);
         var st = StoryTeller.Get();
         st.LoadStorySeq(StorySeq);
         st.StartTellStory();

@@ -52,10 +52,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3021a8e5ed6d7e549819da703bad816b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_next_number: 0
+  m_next_number: 1
   m_story_index: -1
   m_nextStoryPadPrefab:
-  - {fileID: 5388805132253842524, guid: 0bc44146c98b9c44ca221a77b9cefad2, type: 3}
+  - {fileID: 53092568983920516, guid: 3f54ed56922cc084f9a251581868ed9e, type: 3}
 --- !u!1 &53092569114596631
 GameObject:
   m_ObjectHideFlags: 0

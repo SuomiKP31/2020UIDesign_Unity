@@ -12,6 +12,16 @@ public struct Story
     public string m_text;
 }
 
+[Serializable]
+public struct StorySeq
+{
+    public List<int> m_sequence;
+
+    public StorySeq(List<int> seq)
+    {
+        m_sequence = seq;
+    }
+}
 public class GameManager : MonoBehaviour
 {
     static GameManager m_instance;
@@ -19,7 +29,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject m_canvas;
     
     public List<Story> m_storyList;
-    public List<List<int>> m_stories; //Basic idea: Storymaking generates a list of integer(sequence of a set of pictures' index), store inside this
+    
+    [SerializeField]
+    private List<StorySeq> m_stories; //Basic idea: Storymaking generates a list of integer(sequence of a set of pictures' index), store inside this
+    
     public Dictionary<string, int> m_storyDictionary; // (name, story) map, used to find constructed story sequence.
     private void Awake()
     {
@@ -33,7 +46,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        m_stories = new List<List<int>>();
+        m_stories = new List<StorySeq>();
     }
 
     public static GameManager Get()
@@ -47,6 +60,12 @@ public class GameManager : MonoBehaviour
 
     public void AddStorySequence(List<int> seq)
     {
-        m_stories.Add(seq);
+        m_stories.Add(new StorySeq(seq));
+        Debug.Log("Sequence Added");
+    }
+
+    public List<StorySeq> GetStoriesList()
+    {
+        return m_stories;
     }
 }
