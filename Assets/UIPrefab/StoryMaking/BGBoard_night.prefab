@@ -218,7 +218,7 @@ MonoBehaviour:
   m_story_index: -1
   m_nextStoryPadPrefab:
   - {fileID: 3692749584974496017, guid: a6c3f6408375be24586483404c3804b2, type: 3}
-  - {fileID: 53092568983920516, guid: 419ceb2c2be6fc34cb926931ba71ad8e, type: 3}
+  - {fileID: 8795387429316698097, guid: c3f1c55ff689fa1408eb795598c0de43, type: 3}
 --- !u!1 &1669481962695501614
 GameObject:
   m_ObjectHideFlags: 0
