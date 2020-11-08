@@ -11,8 +11,10 @@
           <e p="AccountUIController.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="MainUI.cs" t="Include" />
+          <e p="StoryBook.cs" t="Include" />
           <e p="StoryMaking.cs" t="Include" />
           <e p="StoryPad.cs" t="Include" />
+          <e p="StoryTeller.cs" t="Include" />
           <e p="StoryTelling.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
