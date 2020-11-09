@@ -1201,38 +1201,52 @@ MonoBehaviour:
   m_storyList:
   - m_texture: {fileID: 2800000, guid: 4b28277bc4e67b243b5413224a13902e, type: 3}
     m_audioClip: {fileID: 8300000, guid: dd4d20241a09bba48bec6d6c0c375cba, type: 3}
-    m_text: Enemy is out of revives, finish them.
-  - m_texture: {fileID: 2800000, guid: 0fa7ddb412f201049aa970fef0f918d4, type: 3}
+    m_text: In a forest, Bear and Squirrel are good friends. Winter is coming, Bear
+      is busy eating, and Squirrel is busy hoarding food. .
+  - m_texture: {fileID: 2800000, guid: ae18eb8ad0a8d5c45ba370f7cb5b006e, type: 3}
     m_audioClip: {fileID: 8300000, guid: 02d1dc1aaf227654aa77ab41198351bd, type: 3}
-    m_text: I've recorded your session for the rookies, they will have no excuse
-      for sloppy techniques.
+    m_text: 'One day, Squirrel comes to Bear. "Bear, can you give me some honey?"
+      Bear is hugging the honey and eating it.  He thinks:" Honey is my favorite
+      food ...... but Squirrel is my best friend ...... but ......" '
   - m_texture: {fileID: 2800000, guid: 0e42fd645a72a6a4dacdde59300d4f3e, type: 3}
     m_audioClip: {fileID: 8300000, guid: fd8d34038444651498df69f380b1c5b5, type: 3}
-    m_text: Let them come, this is their fate!
+    m_text: '"Squirrel, I''m sorry, I don''t have much honey to give you ......"
+      "It''s okay, Bear. I''ll go find some other food then, bye~" '
   - m_texture: {fileID: 2800000, guid: c74d4abc99c5f2848a06f11658d31a57, type: 3}
     m_audioClip: {fileID: 8300000, guid: fd8d34038444651498df69f380b1c5b5, type: 3}
-    m_text: Let them come, this is their fate!
+    m_text: Winter arrives, Bear starts to have a long sleep.
   - m_texture: {fileID: 2800000, guid: 101c269a08072f647a4b01e8236d7ea7, type: 3}
     m_audioClip: {fileID: 8300000, guid: fd8d34038444651498df69f380b1c5b5, type: 3}
-    m_text: Let them come, this is their fate!
+    m_text: "When he wakes up, spring has already come. Bear goes out of his den
+      and saw a pile of nuts.  Bear thinks:\u201D These must from Squirrel, she is
+      afraid I will be hungry.\u201D \"Squirrel brings me her favorite food, but
+      I refused to give her some honey ...... No, I'm going to take honey to her
+      and apologize.\" "
   - m_texture: {fileID: 2800000, guid: 558229f09c203034baec64d2c77c3c84, type: 3}
     m_audioClip: {fileID: 8300000, guid: fd8d34038444651498df69f380b1c5b5, type: 3}
-    m_text: Let them come, this is their fate!
+    m_text: 'Bear finds Squirrel. Bear says, "Squirrel, I''m sorry that I refused
+      to give you honey before, can you forgive me?" Squirrel smiles, "I''ll forgive
+      you if you stay and enjoy the nuts and honey with me~" '
   - m_texture: {fileID: 2800000, guid: 32418d25d782e01439db7e25dd310a17, type: 3}
     m_audioClip: {fileID: 8300000, guid: fd8d34038444651498df69f380b1c5b5, type: 3}
-    m_text: Let them come, this is their fate!
+    m_text: Finally, Bear and Squirrel happily enjoy the nuts and honey together.
   - m_texture: {fileID: 2800000, guid: cce19eac182ebef4fa7430168619adb9, type: 3}
     m_audioClip: {fileID: 8300000, guid: fd8d34038444651498df69f380b1c5b5, type: 3}
-    m_text: Let them come, this is their fate!
+    m_text: '"Squirrel, wait a minute. I''ll get it for you~" "Thank you, Bear! I''m
+      so happy!" '
   - m_texture: {fileID: 2800000, guid: c74d4abc99c5f2848a06f11658d31a57, type: 3}
     m_audioClip: {fileID: 8300000, guid: fd8d34038444651498df69f380b1c5b5, type: 3}
-    m_text: Let them come, this is their fate!
+    m_text: Winter arrives, Bear starts to have a long sleep.
   - m_texture: {fileID: 2800000, guid: 101c269a08072f647a4b01e8236d7ea7, type: 3}
     m_audioClip: {fileID: 8300000, guid: fd8d34038444651498df69f380b1c5b5, type: 3}
-    m_text: Let them come, this is their fate!
+    m_text: "When he wakes up, spring has already come. Bear goes out of his den
+      and saw a pile of nuts.  Bear thinks:\u201D These must from Squirrel, she is
+      afraid I will be hungry.\u201D \"I'm taking honey and nuts with me to Squirrel,
+      and we can enjoy them together~\" "
   - m_texture: {fileID: 2800000, guid: 558229f09c203034baec64d2c77c3c84, type: 3}
     m_audioClip: {fileID: 8300000, guid: fd8d34038444651498df69f380b1c5b5, type: 3}
-    m_text: Let them come, this is their fate!
+    m_text: 'Bear finds Squirrel. Bear says, "Squirrel, do you want to enjoy nuts
+      and honey with me?" Squirrel smiles, "Why not." '
   m_stories: []
 --- !u!4 &343954616
 Transform:
@@ -3460,7 +3474,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278203647
-  m_fontColor: {r: 1, g: 0.20310983, b: 0, a: 1}
+  m_fontColor: {r: 0.5849056, g: 0.2093261, b: 0.11311853, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
