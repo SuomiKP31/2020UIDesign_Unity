@@ -647,4 +647,4 @@ MonoBehaviour:
   m_next_number: 1
   m_story_index: -1
   m_nextStoryPadPrefab:
-  - {fileID: 53092568983920516, guid: 3f54ed56922cc084f9a251581868ed9e, type: 3}
+  - {fileID: 53092568983920516, guid: 5935cba924fb7d7488e5a842f7b68a15, type: 3}

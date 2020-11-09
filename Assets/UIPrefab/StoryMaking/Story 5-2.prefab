@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 53092568983920519}
   - component: {fileID: 53092568983920518}
   m_Layer: 5
-  m_Name: Story 2-2
+  m_Name: Story 5-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50,10 +50,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3021a8e5ed6d7e549819da703bad816b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_next_number: 0
-  m_story_index: 2
+  m_next_number: 1
+  m_story_index: 9
   m_nextStoryPadPrefab:
-  - {fileID: 5388805132253842524, guid: 0bc44146c98b9c44ca221a77b9cefad2, type: 3}
+  - {fileID: 53092568983920516, guid: 5fa77580af277f74c967a70f571da2ee, type: 3}
 --- !u!1 &53092569298300874
 GameObject:
   m_ObjectHideFlags: 0
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 76e2225806eb819409d7ecc75b8cc7aa, type: 3}
+  m_Texture: {fileID: 2800000, guid: 101c269a08072f647a4b01e8236d7ea7, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -160,7 +160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 30, y: -178.55875}
+  m_AnchoredPosition: {x: -247, y: -86}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8954861993047559275
@@ -285,7 +285,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.15958036, y: 0.47457963}
   m_AnchorMax: {x: 0.15958036, y: 0.47457963}
-  m_AnchoredPosition: {x: -3.5, y: 5.2531853}
+  m_AnchoredPosition: {x: 623.9235, y: -23.10534}
   m_SizeDelta: {x: 97, y: 99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &535236254998266063

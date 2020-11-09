@@ -1199,14 +1199,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_canvas: {fileID: 0}
   m_storyList:
-  - m_texture: {fileID: 2800000, guid: 76e2225806eb819409d7ecc75b8cc7aa, type: 3}
+  - m_texture: {fileID: 2800000, guid: 4b28277bc4e67b243b5413224a13902e, type: 3}
     m_audioClip: {fileID: 8300000, guid: dd4d20241a09bba48bec6d6c0c375cba, type: 3}
     m_text: Enemy is out of revives, finish them.
-  - m_texture: {fileID: 2800000, guid: 76e2225806eb819409d7ecc75b8cc7aa, type: 3}
+  - m_texture: {fileID: 2800000, guid: 0fa7ddb412f201049aa970fef0f918d4, type: 3}
     m_audioClip: {fileID: 8300000, guid: 02d1dc1aaf227654aa77ab41198351bd, type: 3}
     m_text: I've recorded your session for the rookies, they will have no excuse
       for sloppy techniques.
-  - m_texture: {fileID: 2800000, guid: 76e2225806eb819409d7ecc75b8cc7aa, type: 3}
+  - m_texture: {fileID: 2800000, guid: 0e42fd645a72a6a4dacdde59300d4f3e, type: 3}
+    m_audioClip: {fileID: 8300000, guid: fd8d34038444651498df69f380b1c5b5, type: 3}
+    m_text: Let them come, this is their fate!
+  - m_texture: {fileID: 2800000, guid: c74d4abc99c5f2848a06f11658d31a57, type: 3}
+    m_audioClip: {fileID: 8300000, guid: fd8d34038444651498df69f380b1c5b5, type: 3}
+    m_text: Let them come, this is their fate!
+  - m_texture: {fileID: 2800000, guid: 101c269a08072f647a4b01e8236d7ea7, type: 3}
+    m_audioClip: {fileID: 8300000, guid: fd8d34038444651498df69f380b1c5b5, type: 3}
+    m_text: Let them come, this is their fate!
+  - m_texture: {fileID: 2800000, guid: 558229f09c203034baec64d2c77c3c84, type: 3}
+    m_audioClip: {fileID: 8300000, guid: fd8d34038444651498df69f380b1c5b5, type: 3}
+    m_text: Let them come, this is their fate!
+  - m_texture: {fileID: 2800000, guid: 32418d25d782e01439db7e25dd310a17, type: 3}
+    m_audioClip: {fileID: 8300000, guid: fd8d34038444651498df69f380b1c5b5, type: 3}
+    m_text: Let them come, this is their fate!
+  - m_texture: {fileID: 2800000, guid: cce19eac182ebef4fa7430168619adb9, type: 3}
+    m_audioClip: {fileID: 8300000, guid: fd8d34038444651498df69f380b1c5b5, type: 3}
+    m_text: Let them come, this is their fate!
+  - m_texture: {fileID: 2800000, guid: c74d4abc99c5f2848a06f11658d31a57, type: 3}
+    m_audioClip: {fileID: 8300000, guid: fd8d34038444651498df69f380b1c5b5, type: 3}
+    m_text: Let them come, this is their fate!
+  - m_texture: {fileID: 2800000, guid: 101c269a08072f647a4b01e8236d7ea7, type: 3}
+    m_audioClip: {fileID: 8300000, guid: fd8d34038444651498df69f380b1c5b5, type: 3}
+    m_text: Let them come, this is their fate!
+  - m_texture: {fileID: 2800000, guid: 558229f09c203034baec64d2c77c3c84, type: 3}
     m_audioClip: {fileID: 8300000, guid: fd8d34038444651498df69f380b1c5b5, type: 3}
     m_text: Let them come, this is their fate!
   m_stories: []
